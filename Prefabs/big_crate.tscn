@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://xlcxpfqa3onj"]
+
+[ext_resource type="Texture2D" uid="uid://b4ke5022p6pi5" path="res://Graphical Assets/Sundy Land/environment/Props/big-crate.png" id="1_ja6fw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onkxo"]
+size = Vector2(32, 32)
+
+[node name="Big-crate" type="Sprite2D"]
+position = Vector2(266, 564)
+texture = ExtResource("1_ja6fw")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 64
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_onkxo")
