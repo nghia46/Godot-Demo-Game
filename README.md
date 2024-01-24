@@ -1,1 +1,1 @@
-![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
+![Preview](https://i.ibb.co/wB7KvGb/Sprite-0001.jpg)
